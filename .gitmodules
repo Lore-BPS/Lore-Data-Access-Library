@@ -1,0 +1,3 @@
+[submodule "Lore-Common"]
+	path = Lore-Common
+	url = https://github.com/Lore-BPS/Lore-Common
