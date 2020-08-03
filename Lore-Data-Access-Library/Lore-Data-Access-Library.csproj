@@ -6,21 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\Lore-Common\Models\Action.cs" Link="Models\Action.cs" />
-    <Compile Include="..\Lore-Common\Models\ActionTypes.cs" Link="Models\ActionTypes.cs" />
-    <Compile Include="..\Lore-Common\Models\BackendServers.cs" Link="Models\BackendServers.cs" />
-    <Compile Include="..\Lore-Common\Models\Elements.cs" Link="Models\Elements.cs" />
-    <Compile Include="..\Lore-Common\Models\Frontons.cs" Link="Models\Frontons.cs" />
-    <Compile Include="..\Lore-Common\Models\HistoryElements.cs" Link="Models\HistoryElements.cs" />
-    <Compile Include="..\Lore-Common\Models\Process.cs" Link="Models\Process.cs" />
-    <Compile Include="..\Lore-Common\Models\Step.cs" Link="Models\Step.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime" Version="3.1.4" />
   </ItemGroup>
